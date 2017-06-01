@@ -1,0 +1,42 @@
+{
+  "name": "<b><font color=\"#2196f3\">Psycho Kernel</font></b>",
+  "short_description": "A Psycho kernel by <b>Psycho-Mods</b> 😎",
+  "long_description": "A battery Friendly Performance Based Kernel With Psycho Tweaks! <br> The kernel is in Constant Development Feel free to Contact me and give your suggestions. <br> <a href=\"https://t.me/psycho_mods\">Contact</a>",
+  "logo": "https://avatars3.githubusercontent.com/u/12200792?v=3&s=460",
+  "github": "https://github.com/psycho-source/Psycho-Kernel",
+  "features": [
+  "Built with UBERTC",
+  "Kernel Version Updated to <b>3.10.105</b>",
+  "Supports F2FS",
+  {
+    "name": "CPU Governors",
+    "items": [
+      "Thunderx",
+      "Interactive",
+      "Conservative",
+      "Ondemand",
+      "Userspace",
+      "Powersave",
+      "InteractivePlus (Default)",
+      "Performance"
+    ]
+  },
+  "PowerSaving WorkQueues Scheduler",
+  "ThunderPlug ( A Load based CPU HotPlugging Driver",
+  "Default Fast Charging Enabled, No need to configure Anything Additionally",
+  "Control Vibration Intensity Level With Thunderquake driver",
+  "Super Smooth",
+  "Enjoy 😆"
+],
+  "downloads": [
+  {
+    "name": "V3.0",
+    "description": "<b>Only for <i>Custom Roms</i> and <i>EUI 5.8.17s</i> (Only 6.0 and 7.x.x ROMs Supported)</b>",
+    "url": "https://github.com/psycho-source/Psycho-Kernel/raw/gh-pages/Stable/Psycho-Kernel-v3.zip",
+    "md5sum": "6a1d74b90563998d961a1d788e3b271e",
+    "changelog": [
+      "Added Support to Download/Update Kernel From Kernel Audiutor App Itself"
+    ]
+  }
+]
+}

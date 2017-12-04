@@ -5,12 +5,12 @@ apt-get install ccache bc bison build-essential curl flex g++-multilib gcc-multi
 mkdir -p ~/bin
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
-echo "" >> ~/.bashrc
-echo "if [ -d "$HOME/bin" ] ; then" >> ~/.bashrc
-echo "PATH="$HOME/bin:$PATH"" >> ~/.bashrc
+echo " " >> ~/.bashrc
+echo "if [ -d \"$HOME/bin\" ] ; then" >> ~/.bashrc
+echo "PATH=\"$HOME/bin:$PATH\"" >> ~/.bashrc
 echo "fi" >> ~/.bashrc
-echo "" >> ~/.bashrc
+echo " " >> ~/.bashrc
 echo "export USE_CCACHE=1" » ~/.bashrc
-echo "export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"" » ~/.bashrc
+echo "export ANDROID_JACK_VM_ARGS=\"-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G\"" » ~/.bashrc
 echo "export DOT_OFFICIAL=true" >> ~/.bashrc
 source ~/.bashrc

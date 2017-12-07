@@ -10,7 +10,17 @@ echo "if [ -d \"$HOME/bin\" ] ; then" >> ~/.bashrc
 echo "PATH=\"$HOME/bin:$PATH\"" >> ~/.bashrc
 echo "fi" >> ~/.bashrc
 echo " " >> ~/.bashrc
-echo "export USE_CCACHE=1" » ~/.bashrc
+echo "export USE_CCACHE=1" >> ~/.bashrc
+echo " " >> ~/.bashrc
 echo "export ANDROID_JACK_VM_ARGS=\"-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G\"" » ~/.bashrc
+echo " " >> ~/.bashrc
 echo "export DOT_OFFICIAL=true" >> ~/.bashrc
+echo " " >> ~/.bashrc
 source ~/.bashrc
+mkdir -p ~/dot
+cd ~/dot
+source ~/.bashrc
+repo init -u git://github.com/DotOS/manifest.git -b dot-n
+repo sync  -f --force-sync --no-clone-bundle
+echo "DONE SETTING UP DOT OS"
+echo "ENJOY"

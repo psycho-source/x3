@@ -16,11 +16,5 @@ echo "export ANDROID_JACK_VM_ARGS=\"-Dfile.encoding=UTF-8 -XX:+TieredCompilation
 echo " " >> ~/.bashrc
 echo "export DOT_OFFICIAL=true" >> ~/.bashrc
 echo " " >> ~/.bashrc
-source ~/.bashrc
 mkdir -p ~/dot
 cd ~/dot
-source ~/.bashrc
-repo init -u git://github.com/DotOS/manifest.git -b dot-n
-repo sync  -f --force-sync --no-clone-bundle
-echo "DONE SETTING UP DOT OS"
-echo "ENJOY"

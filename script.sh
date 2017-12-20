@@ -14,7 +14,5 @@ echo "export USE_CCACHE=1" >> ~/.bashrc
 echo " " >> ~/.bashrc
 echo "export ANDROID_JACK_VM_ARGS=\"-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G\"" >> ~/.bashrc
 echo " " >> ~/.bashrc
-echo "export DOT_OFFICIAL=true" >> ~/.bashrc
-echo " " >> ~/.bashrc
-mkdir -p ~/dot
-cd ~/dot
+mkdir -p ~/pos
+cd ~/pos

@@ -1,4 +1,4 @@
 #!/bin/sh
 git clone https://github.com/psycho-source/android_device_leeco_x3.git -b Psycho-N ~/pos/device/leeco/x3
-git clone https://github.com/dotOS-Devices/android_kernel_leeco_x3.git -b dot-n ~/pos/kernel/leeco/x3
-git clone https://github.com/dotOS-Devices/android_vendor_leeco_x3.git -b dot-n ~/pos/vendor/leeco/x3
+git clone https://github.com/psycho-source/android_kernel_leeco_x3.git -b master ~/pos/kernel/leeco/x3
+git clone https://github.com/VenkatVishalV/proprietary_vendor_leeco.git -b android-7.x ~/pos/vendor/leeco

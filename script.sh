@@ -17,3 +17,5 @@ echo " " >> ~/.bashrc
 echo "export PSYCHO_OFFICIAL=true" >> ~/.bashrc
 echo " " >> ~/.bashrc
 mkdir -p ~/pos
+git config --global user.name plcaeholder
+git config --global user.email placeholder

@@ -1,11 +1,9 @@
 <AppUpdater>
   <update>
-    <latestVersion>3.2</latestVersion>
-    <url>https://raw.githubusercontent.com/psycho-source/Kernel-Manager-Releases/master/Kernel-Manager-v3.2.apk</url>
+    <latestVersion>5.0</latestVersion>
+    <url>https://raw.githubusercontent.com/psycho-source/Kernel-Manager-Releases/master/Kernel-Manager-v5.0.apk</url>
     <releaseNotes>
-      - Fixed Settings Page in Dark Theme.
-      - Removed that persistent Snackbar, Now will only come when an update is available.
-      - Little Performance Tweaks.
+- Complete UI Refresh.
     </releaseNotes>
   </update>
 </AppUpdater>

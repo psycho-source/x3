@@ -21,3 +21,4 @@ echo " " >> ~/.bashrc
 mkdir -p ~/pos
 git config --global user.name plcaeholder
 git config --global user.email placeholder
+sudo ln -s /usr/lib/x86_64-linux-gnu/libmpfr.so.6 /usr/lib/x86_64-linux-gnu/libmpfr.so.4
